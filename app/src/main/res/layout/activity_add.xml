@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/widget32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="20dp">
+    <TextView
+        android:id="@+id/widget33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:" />
+    <EditText
+        android:id="@+id/nameSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alex Suárez Ocaña"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/widget35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Link:" />
+    <EditText
+        android:id="@+id/linkSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http://www.alejandrosuarez.es/feed/"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/widget37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:" />
+    <EditText
+        android:id="@+id/emailSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="webmaster@alejandrosuarez.es"
+        android:textSize="16sp" />
+    <LinearLayout
+        android:id="@+id/widget39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept" />
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+    </LinearLayout>
+</LinearLayout>
